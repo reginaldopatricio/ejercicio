@@ -1,9 +1,9 @@
 /*Tipografias*/
 @font-face{
     font-family: creepster;
-    src: url('/font/Creepster-Regular.woff2') format('woff2'),
-         url('/font/Creepster-Regular.woff') format('woff'),
-         url('/font/Creepster-Regular.ttf') format('truetype');
+    src: url('../font/Creepster-Regular.woff2') format('woff2'),
+         url('../font/Creepster-Regular.woff') format('woff'),
+         url('../font/Creepster-Regular.ttf') format('truetype');
 
 }
 
