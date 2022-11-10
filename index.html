@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <!--CONTENEDOR-->
+    <div class="container">
+        <!--HEADER-->
+        <header class="banner">
+            <section class="vacio"></section>
+            <!--Flex para los elementos h1 y h3-->
+            <section class="fondo">
+                <h1 class="h1">HALLOWEEN</h1>
+                <h3 class="h3">PARTY</h3>
+            </section>
+            <!--Imagen de fondo-->
+            <figure>
+                <picture>
+                    <source srcset="
+                                imagenes/Smartphone/fondo.webp 1x,
+                                imagenes/desktop/fondo@2x.webp 2x
+                                imagenes/desktop/fondo@3x.webp 3x">
+                    <img class="fotofondo" src="" alt="2º trabajo">
+                </picture>
+                <figcaption class="subtitulo">
+                    Sabado 01 de noviembre. Estais tdos invitados
+                </figcaption>
+            </figure>
+            <!--El texto que se encuentra bajo el fondo de imagen-->
+            <section class="texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mi augue velit interdum id amet,
+                    leo ligula. Nam ut dui at eget erat donec.</p>
+            </section>
+            <!--Flex para que el boton se ajuste a la derecha-->
+            <section class="boton">
+                <button class="seguir">Seguir -></button>
+            </section>
+        </header>
+
+        <!--MAIN-->
+        <!--tres imagenes en columna y texto bajo estas-->
+        <main>
+            <figure>
+                <article class="primeraimagen"></article>
+                <figcaption class="texto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+            </figure>
+            <figure>
+                <article class="segundaimagen"></article>
+                <figcaption class="texto2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+            </figure>
+            <figure>
+                <article class="terceraimagen"></article>
+                <figcaption class="texto3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+            </figure>
+            <!--Photos-->
+            <section>
+                <figure class="figure1">
+                    <article class="persona1"></article>
+                    <figcaption class="nombre">
+                        Reginaldo
+                    </figcaption>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </figure>
+                <figure class="figure2">
+                    <article class="persona2"></article>
+                    <figcaption class="nombre2">
+                        Celsa
+                    </figcaption>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </figure>
+
+            </section>
+        </main>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <!--Flex para los elementos del formulario-->
+            <form class="formulario">
+                <input class="inputnombre" placeholder="Nombre*">
+                <input class="inputapellido" placeholder="Apellido*">
+                <input class="inputemail" placeholder="Email*">
+                <input class="inputtelefono" placeholder="Telefono*">
+                <textarea class="comentarios" placeholder="Comentarios"></textarea>
+                <button class="enviar">Enviar</button>
+            </form>
+            <!--Iconos-->
+            <section class="iconos">
+                <svg class="twitter"></svg>
+                <svg class="facebook"></svg>
+                <svg class="instagram"></svg>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>

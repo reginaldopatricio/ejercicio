@@ -1,0 +1,160 @@
+/*Tipografias*/
+@font-face{
+    font-family: creepster;
+    src: url("/font/Creepster-Regular.woff2");
+}
+
+/*CONTENEDOR*/
+.container{
+    width: 395px;
+    background-color: #B47831;
+    font-family: creepster;   
+}
+
+/*HEADER*/
+.vacio{
+    height: 5vh;
+    background-color: #731702;
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1, .h3{
+    margin: 0px 0px 0px 0px;
+}
+.subtitulo{
+    margin-left: 80px;
+    font-size: 15px;
+    text-align: center;
+    width: 50%; 
+}
+.texto{
+    padding: 0px 40px 0px 40px;
+    font-size: 16px;
+    text-align: justify;
+}
+.boton{
+    display: flex;
+    justify-content: end;
+    padding: 0px 40px 0px 0px;
+}
+.seguir{
+    height: 48px;
+    width: 79px;
+    background-color: #731702;
+    border: none;   
+}
+
+/*MAIN*/
+.primeraimagen{
+    background: url(../imagenes/Smartphone/calabazas.webp);
+    height: 81px;
+}
+
+.segundaimagen{
+    background: url(../imagenes/Smartphone/luna.webp);
+    height: 81px;
+}
+
+.terceraimagen{
+    background: url(../imagenes/Smartphone/calabaza.webp);
+    height: 81px;
+}
+
+.texto1, .texto2, .texto3{
+    padding-top: 10px;
+    text-align: justify; 
+}
+/*Photos*/
+.persona1{
+    background: url(../imagenes/Smartphone/reginaldo.webp);
+    height: 156px;
+    width: 166px;
+    border-radius: 80px;
+    margin-top: 50px; 
+}
+
+.persona2{
+    background: url(../imagenes/Smartphone/celsa.webp);
+    height: 156px;
+    width: 166px;
+    border-radius: 80px;
+    margin-top: 50px;
+}
+
+.figure1, .figure2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.nombre, .nombre2{  
+    padding-top: 10px;
+}
+.p, .p2{
+    padding: 0px 55px 0px 55px;
+    text-align: justify;      
+}
+
+
+/*FOOTER*/
+.footer{
+    padding: 0px 40px 0px 40px;  
+}
+
+.formulario{
+    display: grid;
+    gap: 10px;
+    padding: 0px 0px 40px 0px;
+}
+
+.inputnombre, .inputapellido, .inputemail, .inputtelefono {
+    width: 300px;
+    height: 48px;
+}
+
+.comentarios{
+    width: 300px;
+    height: 100px;
+}
+
+.enviar{
+    width: 308px;
+    height: 48px;
+    background-color: #731702;
+    border: none;  
+}
+
+/*Iconos*/
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px 20px 0px;  
+}
+
+.twitter{
+    background: url(../iconos/twitter.svg);
+    width: 24px;
+    height: 24px;
+}
+
+.facebook{
+    background: url(../iconos/facebook.svg);
+    width: 24px;
+    height: 24px;
+}
+.instagram{
+    background: url(../iconos/instagram.svg);
+    width: 24px;
+    height: 24px;
+}
+
+
